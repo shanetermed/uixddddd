@@ -135,7 +135,7 @@ local NEVERLOSE = {
 function NEVERLOSE:Theme(name)
 	name = tostring(name or "original"):lower()
 	if name == "original" then
-		NEVERLOSE.Themes.BlackgroundColor = Color3.fromRGB(1, 17, 33)
+		NEVERLOSE.Themes.BlackgroundColor = Color3.fromRGB(255, 17, 33)
 		NEVERLOSE.Themes.BlackColor = Color3.fromRGB(9, 9, 19)
 		NEVERLOSE.Themes.HeaderColor = Color3.fromRGB(7, 7, 17)
 		NEVERLOSE.Themes.TraceColor = Color3.fromRGB(0, 34, 44)
